@@ -1,0 +1,93 @@
+{
+  "pages": {
+    "landingPage": {
+      "layout": {
+        "topbar": {
+          "search": {
+            "placeholder": "Search customer.."
+          },
+          "buttons":{
+            "search": "Search",
+            "createNewCustomer": "Create new customer",
+            "goToClaims": "Go to claims"
+          }
+        }
+      },
+      "header": {
+        "welcome": "Welcome back, {{name}}"
+      },
+      "cards":{
+        "recentCustomers": {
+          "title": "Last visited customers",
+          "cta": "Go to customer list",
+          "table":{
+            "columns":{
+              "name": "Name",
+              "customerNumber": "Customer number",
+              "lastVisited": "Last visited"
+            }
+          } 
+        },
+        "myTasks":{
+          "title": "My tasks",
+          "cta": "Go to all tasks"
+        }
+      }  
+    },
+    "customerSummaryPanel":{
+      "alerts":{
+        "nameAddressProtection": "Customer has name and address protection",
+        "inArrears": "Customer is in arrears"
+      },
+      "sections":{
+        "general":{
+          "title": "General",
+          "customerDetails" :{
+            "customerNumber": "Customer number:",
+            "cpr": "CPR:",
+            "phone": "Phone:",
+            "email": "E-mail:",
+            "address": "Address:"
+          },
+          "economy": {
+            "title": "Economy",
+            "totalPremium": "Total premium"
+          },
+          "relations":{
+            "title": "Relations"
+          },
+          "companyInformation":{
+            "title": "Company information",
+            "agency": "Agency",
+            "caseworker": "Caseworker"
+          },
+          "otherInformation" :{
+            "title": "Other information",
+            "numberOfActivePolicies": "Number of active policies",
+            "numberOfOffers": "Number of offers",
+            "addressProtection": "Address protection",
+            "advertisingProtection": "Advertising protection",
+            "preferredChannel": "Preferred communication channel"
+          }
+        },
+        "consents":{
+          "title": "Consents",
+          "generalConsents":{
+            "title": "General consents",
+            "marketing": "Marketing",
+            "PersonalData": "Personal data"
+          },
+          "activeConsentsForOffers":{
+            "title": "Consents for active offers",
+            "claimsHistoryAndBonus": "Claims history and bonus",
+            "informationOtherCompanies": "Information other companies",
+            "cancellationOtherCompanies": "Cancellation other companies"
+          }
+        },
+        "portfolio":{
+          "title": "Portfolio"
+        }      
+      }
+    }
+  }
+}

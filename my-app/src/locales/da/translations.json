@@ -1,0 +1,98 @@
+{
+  "pages": {
+    "landingPage": {
+      "layout": {
+        "topbar": {
+          "search": {
+            "placeholder": "Søg kunde.."
+          },
+          "buttons":{
+            "search": "Søg",
+            "createNewCustomer": "Opret ny kunde",
+            "goToClaims": "Gå til skader"
+          }
+        }
+      },
+      "header": {
+        "welcome": "Velkommen tilbage, {{name}}"
+      },
+      "cards":{
+        "recentCustomers": {
+          "title": "Senest besøgte kunder",
+          "cta": "Gå til kundeliste",
+          "table":{
+            "columns":{
+              "name": "Navn",
+              "customerNumber": "Kundenummer",
+              "lastVisited": "Senest besøgt"
+            }
+          } 
+        },
+        "myTasks":{
+          "title": "Mine opgaver",
+          "cta": "Gå til alle opgaver"
+        }
+      }
+    },
+    "customerSummaryPanel":{
+      "alerts":{
+        "nameAddressProtection": "Kunden har navne- og adressebeskyttelse",
+        "inArrears": "Kunden er i rykker"
+      },
+      "sections":{
+        "general":{
+          "title": "Generelt",
+          "customerDetails" :{
+            "customerNumber": "Kundenummer:",
+            "cpr": "CPR:",
+            "phone": "Telefon:",
+            "email": "E-mail:",
+            "address": "Adresse:"
+          },
+          "economy": {
+            "title": "Økonomi",
+            "totalPremium": "Total præmie"
+          },
+          "relations":{
+            "title": "Relationer"
+          },
+          "companyInformation":{
+            "title": "Selskabsoplysninger",
+            "agency": "Agentur",
+            "caseworker": "Sagsbehandler"
+          },
+          "otherInformation" :{
+            "title": "Andre oplysninger",
+            "numberOfActivePolicies": "Antal aktive policer",
+            "numberOfOffers": "Antal tilbud",
+            "addressProtection": "Adressebeskyttelse",
+            "advertisingProtection": "Reklamebeskyttelse",
+            "preferredChannel": "Fortrukne kommunikationskanal"
+          }
+        },
+        "consents":{
+          "title": "Samtykker",
+          "generalConsents":{
+            "title": "Generelle samtykker",
+            "marketing": "Marketing",
+            "PersonalData": "Personoplysninger"
+          },
+          "activeConsentsForOffers":{
+            "title": "Samtykker for igangværende tilbud",
+            "claimsHistoryAndBonus": "Skadehistorik og bonus",
+            "informationOtherCompanies": "Oplysninger andre selskaber",
+            "cancellationOtherCompanies": "Opsigelse andre selskaber"
+          }
+        },
+        "portfolio":{
+          "title": "Engagement"
+        }    
+      }
+    }
+  } 
+}
+
+
+
+ 
+
