@@ -88,6 +88,72 @@
           "title": "Engagement"
         }    
       }
+    },
+    "newCustomer":{
+      "title": "Opret ny kunde",
+      "fetchInfo":{
+        "heading": "Hent oplysninger",
+        "customerType": {
+          "private": "Privatkunde",
+          "commercial": "Erhvervskunde"
+        }
+      },
+      "fetchButton": "Hent",
+      "searchField": {
+        "placeholder": "Indtast CPR-nummer"
+      },
+      "addressProtection": "Personen har navne- og adressebeskyttelse",
+      "alternativePostalAddress": "Personen har en anden postadresse end den folkeregisteradressen",
+      "alerts":{
+        "customerExists":{
+        "title": "Kunden findes allerede",
+        "description": "Der findes allerede en kunde med dette CPR-nummer"
+        },
+        "missingContactInformation": {
+          "title": "Manglende kontaktoplysninger",
+          "description": "Vi anbefaler at tilføje telefon eller e-mail på kunden"
+        }
+      },
+      "alternativeAddress": {
+        "heading": "Folkeregisteradresse",
+        "co":"c/o",
+        "streetName":"Gadenavn",
+        "houseNumber":"Husnummer",
+        "floor":"Etage",
+        "door":"Dør/Sidedør/Lejlighedsnummer",
+        "postalCode":"Postnummer",
+        "city":"By",
+        "country":"Land",
+        "options":"Valgfrit"
+      },
+      "contactInformation": {
+        "heading":"Kontaktoplysninger",
+        "phone":"Telefon",
+        "email":"E-mail",
+        "option": "Valgfrit"
+      },
+      "personalData":{
+        "heading": "Personoplysninger",
+        "firstAndMiddleName": "For- og mellemnavn",
+        "lastName": "Efternavn",
+        "cpr": "CPR"
+      },
+      "customerInfo":{
+        "customerNumber": "Kundenummer",
+        "cpr": "CPR",
+        "phone": "Telefon",
+        "email": "E-mail",
+        "address": "Adresse"
+      },
+      "companyInformation":{
+        "heading":"Selskabsoplysninger",
+        "caseworker":"Sagsbehandler",
+        "agency":"Argentur"
+      },
+      "actions":{
+        "cancel": "Annullér",
+        "createCustomer": "Opret kunde"
+      }  
     }
   } 
 }
