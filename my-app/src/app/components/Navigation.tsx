@@ -44,7 +44,16 @@ export default function Navigation() {
         >
           Customer summary panel
         </Link>
-        
+        <Link 
+          className={`rounded-full px-3 py-1 text-sm transition-all ${
+            isActive("/new_customer")
+              ? "bg-blue-600 text-white"
+              : "text-gray-700 hover:bg-zinc-100"
+          }`} 
+          href="/new_customer"
+        >
+          Create new customer
+        </Link>
       </div>
     </nav>
   );

@@ -88,6 +88,72 @@
           "title": "Portfolio"
         }      
       }
+    },
+    "newCustomer":{
+      "title": "Create new customer",
+      "fetchInfo":{
+        "heading": "Get information",
+        "customerType": {
+          "private": "Private customer",
+          "commercial": "Commercial customer"
+        }
+      },
+      "fetchButton": "Get",
+      "searchField": {
+        "placeholder": "Enter CPR number"
+      },
+      "addressProtection": "The person has name and address protection",
+      "alternativePostalAddress": "The person has a different mailing address than the registered address",
+      "alerts":{
+        "customerExists":{
+        "title": "The customer already exists",
+        "description": "A customer with this CPR number already exists"
+        },
+        "missingContactInformation": {
+          "title": "Missing contact information",
+          "description": "We recommend adding a phone number or e-mail to the customer"
+        }
+      },
+      "alternativeAddress": {
+        "heading": "Registered address",
+        "co":"c/o",
+        "streetName":"Street name",
+        "houseNumber":"House number",
+        "floor":"Floor",
+        "door":"Door/Side door/Apartment number",
+        "postalCode":"Postal code",
+        "city":"City",
+        "country":"Country",
+        "options":"Optional"
+      },
+      "contactInformation": {
+        "heading":"Contact information",
+        "phone":"Phone",
+        "email":"E-mail",
+        "option": "Optional"
+      },
+      "personalData":{
+        "heading": "Personal data",
+        "firstAndMiddleName": "First and middle name",
+        "lastName": "Last name",
+        "cpr": "CPR"
+      },
+      "customerInfo":{
+        "customerNumber": "Customer number",
+        "cpr": "CPR",
+        "phone": "Phone",
+        "email": "E-mail",
+        "address": "Address"
+      },
+      "companyInformation":{
+        "heading":"Company information",
+        "caseworker":"Caseworker",
+        "agency":"Agency"
+      },
+      "actions":{
+        "cancel": "Cancel",
+        "createCustomer": "Create customer"
+      }  
     }
   }
 }
