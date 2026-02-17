@@ -62,7 +62,7 @@ export default function NewCustomerPage() {
                         placeholder={t("pages.newCustomer.searchField.placeholder")}
                         className="flex-1 border border-gray-300 rounded-md px-3 py-2"
                         />
-                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("pages.newCustomer.fetchButton")}</button>
+                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("common.buttons.get")}</button>
                     </div>
 
                     {/* Checkbox for adress protection */}
@@ -95,31 +95,31 @@ export default function NewCustomerPage() {
                          {/* Customer details */}
                         <div className="space-y-3">
                             <div className="flex">
-                                <span className="text-gray-700 text-sm w-32">{t('pages.newCustomer.customerInfo.customerNumber')}:</span>
+                                <span className="text-gray-700 text-sm w-32">{t('common.fields.customerNumber')}:</span>
                                 <span className="text-sm">12 34 56 78</span>
                             </div>
                             <div className="flex">
-                                <span className="text-gray-700 text-sm w-32">{t('pages.newCustomer.customerInfo.cpr')}:</span>
+                                <span className="text-gray-700 text-sm w-32">{t('common.fields.cpr')}:</span>
                                 <span className="text-sm">300179-4995</span>
                             </div>
                             <div className="flex">
-                                <span className="text-gray-700 text-sm w-32">{t('pages.newCustomer.customerInfo.phone')}:</span>
+                                <span className="text-gray-700 text-sm w-32">{t('common.fields.phone')}:</span>
                                 <span className="text-sm">+45 11 22 33 44</span>
                             </div>
                             <div className="flex">
-                                <span className="text-gray-700 text-sm w-32">{t('pages.newCustomer.customerInfo.email')}:</span>
+                                <span className="text-gray-700 text-sm w-32">{t('common.fields.email')}:</span>
                                 <span className="text-sm">niels@example.com</span>
                             </div>
                             <div className="flex">
-                                <span className="text-gray-700 text-sm w-32">{t('pages.newCustomer.customerInfo.address')}:</span>
+                                <span className="text-gray-700 text-sm w-32">{t('common.fields.address')}:</span>
                                 <span className="text-sm">Aldersrogade 8, 1234 København</span>
                             </div>
                         </div>
                     </div>
                     {/* Action buttons */}
                     <div className="flex gap-4">
-                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('pages.newCustomer.actions.cancel')}</button>
-                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('pages.newCustomer.actions.createCustomer')}</button>
+                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('common.buttons.cancel')}</button>
+                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('common.buttons.createCustomer')}</button>
                     </div>           
                 </div>
                 </div>
@@ -155,7 +155,7 @@ export default function NewCustomerPage() {
                         placeholder={t("pages.newCustomer.searchField.placeholder")}
                         className="flex-1 border border-gray-300 rounded-md px-3 py-2"
                         />
-                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("pages.newCustomer.fetchButton")}</button>
+                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("common.buttons.get")}</button>
                     </div>
 
                     {/* Checkbox for adress protection */}
@@ -189,8 +189,8 @@ export default function NewCustomerPage() {
                             {/* Phone input */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span>{t('pages.newCustomer.contactInformation.phone')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.contactInformation.option')})</span>
+                                    <span>{t('common.fields.phone')}</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="tel"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -199,8 +199,8 @@ export default function NewCustomerPage() {
                             {/* Email input */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span>{t('pages.newCustomer.contactInformation.email')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.contactInformation.option')})</span>
+                                    <span>{t('common.fields.email')}</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="email"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -226,7 +226,7 @@ export default function NewCustomerPage() {
                         <div className="space-y-4">
                             {/* Caseworker dropdown */}
                             <div>
-                                <label className="block text-sm  mb-2" >{t('pages.newCustomer.companyInformation.caseworker')}
+                                <label className="block text-sm  mb-2" >{t('common.fields.caseworker')}
                                     <span>*</span>
                                 </label>
                                 <select className="w-full border border-gray-300 rounded px-3 py-2 bg-white">
@@ -235,7 +235,7 @@ export default function NewCustomerPage() {
                             </div>
                             {/* Agency dropdown */}
                             <div>
-                                <label className="block text-sm  mb-2" >{t('pages.newCustomer.companyInformation.agency')}
+                                <label className="block text-sm  mb-2" >{t('common.fields.agency')}
                                     <span>*</span>
                                 </label>
                                 <select className="w-full border border-gray-300 rounded px-3 py-2 bg-white mb-4">
@@ -249,8 +249,8 @@ export default function NewCustomerPage() {
 
                     {/* Action buttons */}
                     <div className="flex gap-4">
-                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('pages.newCustomer.actions.cancel')}</button>
-                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('pages.newCustomer.actions.createCustomer')}</button>
+                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('common.buttons.cancel')}</button>
+                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('common.buttons.createCustomer')}</button>
                     </div>           
                 </div>
                 </div>
@@ -286,7 +286,7 @@ export default function NewCustomerPage() {
                         placeholder={t("pages.newCustomer.searchField.placeholder")}
                         className="flex-1 border border-gray-300 rounded-md px-3 py-2"
                         />
-                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("pages.newCustomer.fetchButton")}</button>
+                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("common.buttons.get")}</button>
                     </div>
 
                     {/* Checkbox for adress protection */}
@@ -319,7 +319,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.co')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -353,7 +353,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.floor')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -363,7 +363,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.door')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -397,7 +397,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.country')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -413,8 +413,8 @@ export default function NewCustomerPage() {
                             {/* Phone input */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span>{t('pages.newCustomer.contactInformation.phone')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.contactInformation.option')})</span>
+                                    <span>{t('common.fields.phone')}</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="tel"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -423,8 +423,8 @@ export default function NewCustomerPage() {
                             {/* Email input */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span>{t('pages.newCustomer.contactInformation.email')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.contactInformation.option')})</span>
+                                    <span>{t('common.fields.email')}</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="email"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -439,7 +439,7 @@ export default function NewCustomerPage() {
                         <div className="space-y-4">
                             {/* Caseworker dropdown */}
                             <div>
-                                <label className="block text-sm  mb-2" >{t('pages.newCustomer.companyInformation.caseworker')}
+                                <label className="block text-sm  mb-2" >{t('common.fields.caseworker')}
                                     <span>*</span>
                                 </label>
                                 <select className="w-full border border-gray-300 rounded px-3 py-2 bg-white">
@@ -448,7 +448,7 @@ export default function NewCustomerPage() {
                             </div>
                             {/* Agency dropdown */}
                             <div>
-                                <label className="block text-sm  mb-2" >{t('pages.newCustomer.companyInformation.agency')}
+                                <label className="block text-sm  mb-2" >{t('common.fields.agency')}
                                     <span>*</span>
                                 </label>
                                 <select className="w-full border border-gray-300 rounded px-3 py-2 bg-white mb-4">
@@ -462,8 +462,8 @@ export default function NewCustomerPage() {
 
                     {/* Action buttons */}
                     <div className="flex gap-4">
-                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('pages.newCustomer.actions.cancel')}</button>
-                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('pages.newCustomer.actions.createCustomer')}</button>
+                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('common.buttons.cancel')}</button>
+                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('common.buttons.createCustomer')}</button>
                     </div>           
                 </div>
                 </div>
@@ -500,7 +500,7 @@ export default function NewCustomerPage() {
                         placeholder={t("pages.newCustomer.searchField.placeholder")}
                         className="flex-1 border border-gray-300 rounded-md px-3 py-2"
                         />
-                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("pages.newCustomer.fetchButton")}</button>
+                        <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">{t("common.buttons.get")}</button>
                     </div>
 
                     {/* Checkbox for adress protection */}
@@ -516,7 +516,7 @@ export default function NewCustomerPage() {
                             {/* First and middlename */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span className="text-sm">{t('pages.newCustomer.personalData.firstAndMiddleName')}*</span>
+                                    <span className="text-sm">{t('common.fields.firstAndMiddleName')}*</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -524,7 +524,7 @@ export default function NewCustomerPage() {
                             {/* Last name */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span className="text-sm">{t('pages.newCustomer.personalData.lastName')}*</span>
+                                    <span className="text-sm">{t('common.fields.lastName')}*</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -532,7 +532,7 @@ export default function NewCustomerPage() {
                             {/* CPR */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span className="text-sm">{t('pages.newCustomer.personalData.cpr')}*</span>
+                                    <span className="text-sm">{t('common.fields.cpr')}*</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -549,7 +549,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.co')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -583,7 +583,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.floor')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -593,7 +593,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.door')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -627,7 +627,7 @@ export default function NewCustomerPage() {
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
                                     <span>{t('pages.newCustomer.alternativeAddress.country')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.alternativeAddress.options')})</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="text"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -649,8 +649,8 @@ export default function NewCustomerPage() {
                             {/* Phone input */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span>{t('pages.newCustomer.contactInformation.phone')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.contactInformation.option')})</span>
+                                    <span>{t('common.fields.phone')}</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="tel"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -659,8 +659,8 @@ export default function NewCustomerPage() {
                             {/* Email input */}
                             <div>
                                 <label className="flex text-sm justify-between items-center mb-2">
-                                    <span>{t('pages.newCustomer.contactInformation.email')}</span>
-                                    <span className="text-gray-500">({t('pages.newCustomer.contactInformation.option')})</span>
+                                    <span>{t('common.fields.email')}</span>
+                                    <span className="text-gray-500">({t('common.labels.optional')})</span>
                                 </label>
                                 <input type="email"
                                 className="w-full border border-gray-300 rounded-md px-3 py-2" />
@@ -675,7 +675,7 @@ export default function NewCustomerPage() {
                         <div className="space-y-4">
                             {/* Caseworker dropdown */}
                             <div>
-                                <label className="block text-sm  mb-2" >{t('pages.newCustomer.companyInformation.caseworker')}
+                                <label className="block text-sm  mb-2" >{t('common.fields.caseworker')}
                                     <span>*</span>
                                 </label>
                                 <select className="w-full border border-gray-300 rounded px-3 py-2 bg-white">
@@ -684,7 +684,7 @@ export default function NewCustomerPage() {
                             </div>
                             {/* Agency dropdown */}
                             <div>
-                                <label className="block text-sm  mb-2" >{t('pages.newCustomer.companyInformation.agency')}
+                                <label className="block text-sm  mb-2" >{t('common.fields.agency')}
                                     <span>*</span>
                                 </label>
                                 <select className="w-full border border-gray-300 rounded px-3 py-2 bg-white mb-4">
@@ -698,8 +698,8 @@ export default function NewCustomerPage() {
 
                     {/* Action buttons */}
                     <div className="flex gap-4">
-                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('pages.newCustomer.actions.cancel')}</button>
-                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('pages.newCustomer.actions.createCustomer')}</button>
+                        <button className="border border-blue-500 text-gray-700 px-14 py-2 rounded-md hover:bg-gray-50">{t('common.buttons.cancel')}</button>
+                        <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('common.buttons.createCustomer')}</button>
                     </div>           
                 </div>
                 </div>

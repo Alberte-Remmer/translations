@@ -1,15 +1,39 @@
 {
+  "common":{
+    "fields":{
+      "name": "Navn",
+      "customerNumber": "Kundenummer",
+      "cpr": "CPR",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "address": "Adresse",
+      "firstName": "Fornavn",
+      "firstAndMiddleName": "For- og mellemnavn",
+      "lastName": "Efternavn",
+      "agency": "Agentur",
+      "caseworker": "Sagsbehandler"
+    },
+    "labels": {
+      "optional": "Valgfri"
+    },
+    "buttons": {
+      "cancel": "Annullér",
+      "search": "Søg",
+      "createCustomer": "Opret kunde",
+      "goToClaims": "Gå til skader",
+      "get": "Hent",
+      "create": "Opret",
+      "save": "Gem",
+      "delete": "Slet",
+      "edit": "Rediger"
+    }
+  },
   "pages": {
     "landingPage": {
       "layout": {
         "topbar": {
           "search": {
             "placeholder": "Søg kunde.."
-          },
-          "buttons":{
-            "search": "Søg",
-            "createNewCustomer": "Opret ny kunde",
-            "goToClaims": "Gå til skader"
           }
         }
       },
@@ -22,8 +46,6 @@
           "cta": "Gå til kundeliste",
           "table":{
             "columns":{
-              "name": "Navn",
-              "customerNumber": "Kundenummer",
               "lastVisited": "Senest besøgt"
             }
           } 
@@ -42,24 +64,19 @@
       "sections":{
         "general":{
           "title": "Generelt",
-          "customerDetails" :{
-            "customerNumber": "Kundenummer:",
-            "cpr": "CPR:",
-            "phone": "Telefon:",
-            "email": "E-mail:",
-            "address": "Adresse:"
-          },
           "economy": {
             "title": "Økonomi",
             "totalPremium": "Total præmie"
           },
           "relations":{
-            "title": "Relationer"
+            "title": "Relationer",
+            "noRelations":{
+              "emptyTitle": "Ingen relationer at vise",
+              "emptyDescription": "Der er ingen relationer knyttet til denne kunde"
+            }
           },
           "companyInformation":{
-            "title": "Selskabsoplysninger",
-            "agency": "Agentur",
-            "caseworker": "Sagsbehandler"
+            "title": "Selskabsoplysninger"
           },
           "otherInformation" :{
             "title": "Andre oplysninger",
@@ -98,7 +115,6 @@
           "commercial": "Erhvervskunde"
         }
       },
-      "fetchButton": "Hent",
       "searchField": {
         "placeholder": "Indtast CPR-nummer"
       },
@@ -123,37 +139,17 @@
         "door":"Dør/Sidedør/Lejlighedsnummer",
         "postalCode":"Postnummer",
         "city":"By",
-        "country":"Land",
-        "options":"Valgfrit"
+        "country":"Land"
       },
       "contactInformation": {
-        "heading":"Kontaktoplysninger",
-        "phone":"Telefon",
-        "email":"E-mail",
-        "option": "Valgfrit"
+        "heading":"Kontaktoplysninger"
       },
       "personalData":{
-        "heading": "Personoplysninger",
-        "firstAndMiddleName": "For- og mellemnavn",
-        "lastName": "Efternavn",
-        "cpr": "CPR"
-      },
-      "customerInfo":{
-        "customerNumber": "Kundenummer",
-        "cpr": "CPR",
-        "phone": "Telefon",
-        "email": "E-mail",
-        "address": "Adresse"
+        "heading": "Personoplysninger"
       },
       "companyInformation":{
-        "heading":"Selskabsoplysninger",
-        "caseworker":"Sagsbehandler",
-        "agency":"Argentur"
-      },
-      "actions":{
-        "cancel": "Annullér",
-        "createCustomer": "Opret kunde"
-      }  
+        "heading":"Selskabsoplysninger"
+      } 
     }
   } 
 }

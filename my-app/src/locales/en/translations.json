@@ -1,15 +1,44 @@
 {
+  "common":{
+    "fields":{
+      "name": "Name",
+      "customerNumber": "Customer number",
+        "cpr": "CPR",
+        "phone": "Phone",
+        "email": "E-mail",
+        "address": "Address",
+        "firstName": "First name",
+        "firstAndMiddleName": "First and middle name",
+        "lastName": "Last name",
+        "agency": "Agency",
+        "caseworker": "Caseworker"
+    },
+    "labels": {
+      "optional": "Optional"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "get": "Get",
+      "create": "Create"
+    },
+     "buttons": {
+      "cancel": "Cancel",
+      "search": "Search",
+      "createCustomer": "Create customer",
+      "goToClaims": "Go to claims",
+      "get": "Get",
+      "create": "Create",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit"
+    }
+  },
   "pages": {
     "landingPage": {
       "layout": {
         "topbar": {
           "search": {
             "placeholder": "Search customer.."
-          },
-          "buttons":{
-            "search": "Search",
-            "createNewCustomer": "Create new customer",
-            "goToClaims": "Go to claims"
           }
         }
       },
@@ -22,8 +51,6 @@
           "cta": "Go to customer list",
           "table":{
             "columns":{
-              "name": "Name",
-              "customerNumber": "Customer number",
               "lastVisited": "Last visited"
             }
           } 
@@ -42,24 +69,19 @@
       "sections":{
         "general":{
           "title": "General",
-          "customerDetails" :{
-            "customerNumber": "Customer number:",
-            "cpr": "CPR:",
-            "phone": "Phone:",
-            "email": "E-mail:",
-            "address": "Address:"
-          },
           "economy": {
             "title": "Economy",
             "totalPremium": "Total premium"
           },
           "relations":{
-            "title": "Relations"
+            "title": "Relations",
+            "noRelations":{
+              "emptyTitle": "No relations to display",
+              "emptyDescription": "There are no relations associated with this customer"
+            }
           },
           "companyInformation":{
-            "title": "Company information",
-            "agency": "Agency",
-            "caseworker": "Caseworker"
+            "title": "Company information"
           },
           "otherInformation" :{
             "title": "Other information",
@@ -127,28 +149,13 @@
         "options":"Optional"
       },
       "contactInformation": {
-        "heading":"Contact information",
-        "phone":"Phone",
-        "email":"E-mail",
-        "option": "Optional"
+        "heading":"Contact information"
       },
       "personalData":{
-        "heading": "Personal data",
-        "firstAndMiddleName": "First and middle name",
-        "lastName": "Last name",
-        "cpr": "CPR"
-      },
-      "customerInfo":{
-        "customerNumber": "Customer number",
-        "cpr": "CPR",
-        "phone": "Phone",
-        "email": "E-mail",
-        "address": "Address"
+        "heading": "Personal data"
       },
       "companyInformation":{
-        "heading":"Company information",
-        "caseworker":"Caseworker",
-        "agency":"Agency"
+        "heading":"Company information"
       },
       "actions":{
         "cancel": "Cancel",

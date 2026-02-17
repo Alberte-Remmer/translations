@@ -57,11 +57,11 @@ export default function CustomerSummaryPanel() {
                         </div>
                     </div>
                     <div className="grid grid-cols gap-y-2 gap-x-4 text-sm mb-4">
-                        <span className="text-gray-600">{t("pages.customerSummaryPanel.sections.general.customerDetails.customerNumber")}</span>
-                        <span className="text-gray-600">{t("pages.customerSummaryPanel.sections.general.customerDetails.cpr")}</span>
-                        <span className="text-gray-600">{t("pages.customerSummaryPanel.sections.general.customerDetails.phone")}</span>
-                        <span className="text-gray-600">{t("pages.customerSummaryPanel.sections.general.customerDetails.email")}</span>
-                        <span className="text-gray-600">{t("pages.customerSummaryPanel.sections.general.customerDetails.address")}</span>
+                        <span className="text-gray-600">{t("common.fields.customerNumber")}:</span>
+                        <span className="text-gray-600">{t("common.fields.cpr")}:</span>
+                        <span className="text-gray-600">{t("common.fields.phone")}:</span>
+                        <span className="text-gray-600">{t("common.fields.email")}:</span>
+                        <span className="text-gray-600">{t("common.fields.address")}:</span>
                     </div>
 
                     {/* Economy */}
@@ -81,8 +81,8 @@ export default function CustomerSummaryPanel() {
                     {/* Company Information */}
                     <h3 className="text-md font-semibold mb-2">{t("pages.customerSummaryPanel.sections.general.companyInformation.title")}</h3>
                     <div className="grid grid-cols gap-y-2 text-sm mb-4">
-                        <span className="text-gray-600">{t("pages.customerSummaryPanel.sections.general.companyInformation.agency")}</span>
-                        <span className="text-gray-600">{t("pages.customerSummaryPanel.sections.general.companyInformation.caseworker")}</span>
+                        <span className="text-gray-600">{t("common.fields.agency")}</span>
+                        <span className="text-gray-600">{t("common.fields.caseworker")}</span>
                     </div>
 
                     {/* Other Information */}
