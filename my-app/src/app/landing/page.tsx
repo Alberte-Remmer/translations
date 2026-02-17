@@ -36,7 +36,7 @@ export default function LandingPage() {
               placeholder={t("pages.landingPage.layout.topbar.search.placeholder")}
             />
             <button className="rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white hover:bg-blue-700">
-              {t("pages.landingPage.layout.topbar.buttons.search")}
+              {t("common.buttons.search")}
             </button>
           </div>
         </div>
@@ -48,10 +48,10 @@ export default function LandingPage() {
           </div>
           <div className="flex items-center gap-2">
             <button className="rounded-md border border-zinc-200 px-3 py-2 text-sm font-semibold hover:bg-gray-50">
-              {t("pages.landingPage.layout.topbar.buttons.createNewCustomer")}
+              {t("common.buttons.createNewCustomer")}
             </button>
             <button className="rounded-md border border-zinc-200 px-3 py-2 text-sm font-semibold hover:bg-gray-50">
-              {t("pages.landingPage.layout.topbar.buttons.goToClaims")}
+              {t("common.buttons.goToClaims")}
             </button>
           </div>
         </div>
@@ -68,9 +68,9 @@ export default function LandingPage() {
             </div>
             <div className="space-y-1">
               <div className="grid grid-cols-3 gap-4 pb-3 border-b border-gray-200">
-                <span className="text-sm font-semibold text-gray-600">{t("pages.landingPage.cards.recentCustomers.table.columns.name")}</span>
+                <span className="text-sm font-semibold text-gray-600">{t("common.fields.name")}</span>
                 <span className="text-sm font-semibold text-gray-600">
-                  {t("pages.landingPage.cards.recentCustomers.table.columns.customerNumber")}
+                  {t("common.fields.customerNumber")}
                 </span>
                 <span className="text-sm font-semibold text-gray-600">
                   {t("pages.landingPage.cards.recentCustomers.table.columns.lastVisited")}
