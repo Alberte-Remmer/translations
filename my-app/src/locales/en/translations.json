@@ -61,6 +61,16 @@
         }
       }  
     },
+    "customerOverview": {
+      "noEngagements": {
+        "title": "No engagements yet",
+        "description": "When an engagement is added, it will be displayed here."
+      },
+      "noTasks": {
+        "title": "No tasks yet",
+        "description": "Come back later for new tasks."
+      }
+    },
     "customerSummaryPanel":{
       "alerts":{
         "nameAddressProtection": "Customer has name and address protection",
