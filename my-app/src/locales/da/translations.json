@@ -56,6 +56,16 @@
         }
       }
     },
+    "customerOverview": {
+      "noEngagements": {
+        "title": "Ingen engagementer endnu",
+        "description": "Når et engagement er tilføjet, vil det blive vist her."
+      },
+      "noTasks": {
+        "title": "Ingen opgaver endnu",
+        "description": "Kig forbi igen senere for nye opgaver."
+      }
+    },
     "customerSummaryPanel":{
       "alerts":{
         "nameAddressProtection": "Kunden har navne- og adressebeskyttelse",

@@ -702,8 +702,7 @@ export default function NewCustomerPage() {
                         <button className="bg-blue-500 text-white px-12 py-2 rounded-md hover:bg-blue-600">{t('common.buttons.createCustomer')}</button>
                     </div>           
                 </div>
-                </div>
-                
+                </div>               
             </div>
             <LanguageSwitcher />
         </div>
