@@ -54,6 +54,16 @@ export default function Navigation() {
         >
           Create new customer
         </Link>
+         <Link 
+          className={`rounded-full px-3 py-1 text-sm transition-all ${
+            isActive("/internal_notes")
+              ? "bg-blue-600 text-white"
+              : "text-gray-700 hover:bg-zinc-100"
+          }`} 
+          href="/internal_notes"
+        >
+          Internal notes
+        </Link>
       </div>
     </nav>
   );

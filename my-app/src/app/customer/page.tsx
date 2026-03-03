@@ -13,7 +13,7 @@ export default function CustomerSummaryPanel() {
     return(
         <div>
             <HeaderMessage
-                title="Customer summary panel - in progress"
+                title="Customer summary panel"
                 text={
                     <>
                     Follow this link if you want to see the layout in Figma:{" "}

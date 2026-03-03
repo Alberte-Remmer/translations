@@ -16,10 +16,9 @@
     "labels": {
       "optional": "Optional"
     },
-    "actions": {
-      "cancel": "Cancel",
-      "get": "Get",
-      "create": "Create"
+     "tabs":{
+      "overview": "Overview",
+      "internalNotes": "Internal notes"
     },
      "buttons": {
       "cancel": "Cancel",
@@ -28,9 +27,14 @@
       "goToClaims": "Go to claims",
       "get": "Get",
       "create": "Create",
+      "createOffer": "Create offer",
       "save": "Save",
       "delete": "Delete",
       "edit": "Edit"
+    },
+    "choices": {
+      "yes": "Yes",
+      "no": "No"
     }
   },
   "pages": {
@@ -171,6 +175,15 @@
         "cancel": "Cancel",
         "createCustomer": "Create customer"
       }  
+    },
+    "internalNotes" :{
+      "title": "Internal notes",
+      "placeholder":"Write an internal note..",
+      "saveNote":"Save note",
+      "NoNotes": {
+        "title": "No internal notes yet",
+        "description": "Internal notes added for this customer will be displayed here."
+      }
     }
   }
 }

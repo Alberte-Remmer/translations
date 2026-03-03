@@ -10,11 +10,15 @@
       "firstName": "Fornavn",
       "firstAndMiddleName": "For- og mellemnavn",
       "lastName": "Efternavn",
-      "agency": "Agentur",
+      "agency": "Argentur",
       "caseworker": "Sagsbehandler"
     },
     "labels": {
       "optional": "Valgfri"
+    },
+    "tabs":{
+      "overview": "Overblik",
+      "internalNotes": "Interne noter"
     },
     "buttons": {
       "cancel": "Annullér",
@@ -23,9 +27,14 @@
       "goToClaims": "Gå til skader",
       "get": "Hent",
       "create": "Opret",
+      "createOffer": "Opret tilbud",
       "save": "Gem",
       "delete": "Slet",
       "edit": "Rediger"
+    },
+    "choices": {
+      "yes": "Ja",
+      "no": "Nej"
     }
   },
   "pages": {
@@ -160,6 +169,15 @@
       "companyInformation":{
         "heading":"Selskabsoplysninger"
       } 
+    },
+    "internalNotes" :{
+      "title": "Interne noter",
+      "placeholder":"Skriv en intern note..",
+      "saveNote":"Gem note",
+      "NoNotes": {
+        "title": "Ingen interne noter endnu",
+        "description": "Interne noter, der tilføjes for denne kunde, vises her."
+      }
     }
   } 
 }

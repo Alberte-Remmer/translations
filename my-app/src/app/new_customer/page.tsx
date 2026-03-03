@@ -13,7 +13,7 @@ export default function NewCustomerPage() {
     return(
         <div>
             <HeaderMessage
-                title="New customer page - in progress"
+                title="New customer page"
                   text={
               <>
                 Follow this link if you want to see the layout in Figma:{" "}
