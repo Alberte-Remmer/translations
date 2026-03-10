@@ -88,7 +88,8 @@
             "totalPremium": "Total præmie"
           },
           "relations":{
-            "title": "Relationer",
+            "title": "Relationer og roller",
+            "role": "Rolle",
             "noRelations":{
               "emptyTitle": "Ingen relationer at vise",
               "emptyDescription": "Der er ingen relationer knyttet til denne kunde"
