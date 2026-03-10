@@ -65,6 +65,16 @@
         }
       }
     },
+    "searchResult:": {
+      "noResults": {
+        "title": "Ingen resultater fundet",
+        "description": "Vi kunne ikke finde nogen resultater, der matcher din søgning. Prøv at justere din søgning eller opret en ny kunde."
+      },
+      "results":{
+        "customerAddress": "Adresse",
+        "insuranceProducts": "Forsikringsprodukter"
+      }
+    },
     "customerOverview": {
       "noEngagements": {
         "title": "Ingen engagementer endnu",

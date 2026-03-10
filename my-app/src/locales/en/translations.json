@@ -65,6 +65,16 @@
         }
       }  
     },
+    "searchResult:": {
+      "noResults": {
+        "title": "No results found",
+        "description": "We couldn't find any results matching your search. Try refining your search or create a new customer."
+      },
+      "results":{
+        "customerAddress": "Address",
+        "insuranceProducts": "Insurance products"
+      }
+    },
     "customerOverview": {
       "noEngagements": {
         "title": "No engagements yet",
