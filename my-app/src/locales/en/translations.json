@@ -88,7 +88,8 @@
             "totalPremium": "Total premium"
           },
           "relations":{
-            "title": "Relations",
+            "title": "Relations and roles",
+            "role":"Roles",
             "noRelations":{
               "emptyTitle": "No relations to display",
               "emptyDescription": "There are no relations associated with this customer"
