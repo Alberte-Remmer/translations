@@ -170,6 +170,64 @@
         "heading":"Selskabsoplysninger"
       } 
     },
+    "validationerrors": {
+      "cprNumber": {
+        "requiredAndEmpty": "Indtast et gyldigt 10-cifret CPR-nummer (ddmmåå-xxxx).",
+        "invalidValue": "Indtast et gyldigt 10-cifret CPR-nummer (ddmmåå-xxxx).",
+        "invalidFormat": "CPR-nummeret er ikke i korrekt format (ddmmåå-xxxx)."
+      },
+      "cvrNumber": {
+        "requiredAndEmpty": "Indtast et gyldigt 8-cifret CVR-nummer i formatet XXXXXXXX.",
+        "invalidValue": "Indtast et gyldigt 8-cifret CVR-nummer i formatet XXXXXXXX.",
+        "invalidFormat": "CVR-nummeret er ikke i korrekt format (XXXXXXXX)."
+      },
+      "name": {
+        "minimumLength": "Navnet skal være mindst 2 tegn.",
+        "maximumLength": "Navnet må højst være 50 tegn.",
+        "invalidCharacters": "Navnet må kun indeholde bogstaver, mellemrum, bindestreg eller apostrof."
+      },
+      "streetName":{
+        "requiredAndEmpty": "Vejnavn skal være mellem 2 og 50 tegn og må kun indeholde bogstaver.",
+        "minimumLength": "Vejnavn skal være mindst 2 tegn.",
+        "maximumLength": "Vejnavn må højst være 50 tegn.",
+        "invalidCharacters": "Vejnavn må kun indeholde bogstaver."
+      },
+      "city": {
+        "requiredAndEmpty": "By er påkrævet.",
+        "minimumLength": "By skal være mindst 2 tegn.",
+        "maximumLength": "By må højst være 50 tegn."      
+      },
+      "zipCode": {
+        "length": "Postnummer skal være 4 cifre.",
+        "digitsOnly": "Postnummer må kun indeholde tal."
+      },
+      "email": {
+        "generalValidation": "Indtast en gyldig e-mailadresse (fx email@example.xyz).",
+        "missingAtSymbol": "E-mailadressen skal indeholde @.",
+        "invalidFormat": "E-mailadressen er ikke i korrekt format (fx email@example.xyz)."
+       },
+       "c/o": {
+        "minimumLength": "c/o skal være mindst 2 tegn",
+        "maximumLength": "c/o må højst være 50 tegn.",
+        "invalidCharacters": "c/o må kun indeholde bogstaver, mellemrum, bindestreg eller apostrof."
+       },
+        "houseNumber": {
+          "requiredAndEmpty": "Husnummer skal starte med et tal og må kun indeholde tal og eventuelt bogstav.",
+          "maximumLength": "Husnummer må højst være 10 tegn.",
+          "invalidFormat": "Husnummer skal starte med et tal og må kun indeholde tal og eventuelt bogstav."
+        },
+        "floor": {
+          "combinedValidation": "Etage skal angives som tal, eventuelt efterfulgt af punktum og sidebetegnelse (fx 2. th).",
+          "maximumLength": "Etage må højst være 5 tegn.",
+          "invalidCharacters": "Etage skal angives som tal, eventuelt efterfulgt af punktum og sidebetegnelse (fx 2. th)."
+        },
+        "country": {
+          "requiredAndEmpty": "Land skal være mellem 2 og 56 tegn og må kun indeholde bogstaver, mellemrum, bindestreg eller apostrof.",
+          "minimumLength": "Land skal være mindst 2 tegn.",
+          "maximumLength": "Land må højst være 56 tegn.",
+          "invalidCharacters": "Land må kun indeholde bogstaver, mellemrum, bindestreg eller apostrof."
+        }
+    },
     "internalNotes" :{
       "title": "Interne noter",
       "placeholder":"Skriv en intern note..",
