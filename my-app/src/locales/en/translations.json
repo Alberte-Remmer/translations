@@ -176,6 +176,64 @@
         "createCustomer": "Create customer"
       }  
     },
+    "validationerrors": {
+      "cprNumber": {
+        "requiredAndEmpty": "Enter a valid 10-digit CPR number (ddmmyy-xxxx).",
+        "invalidValue": "Enter a valid 10-digit CPR number (ddmmyy-xxxx).",
+        "invalidFormat": "The CPR number is not in the correct format (ddmmyy-xxxx)."
+      },
+      "cvrNumber": {
+        "requiredAndEmpty": "Enter a valid 8-digit CVR number in the format DXXXXXXX.",
+        "invalidValue": "Enter a valid 8-digit CVR number in the format DXXXXXXX.",
+        "invalidFormat": "The CVR number is not in the correct format (DXXXXXXX)."
+      },
+      "name": {
+        "minimumLength": "Name must be at least 2 characters.",
+        "maximumLength": "Name must not exceed 50 characters.",
+        "invalidCharacters": "Name may only contain letters, spaces, hyphens, or apostrophes."
+      },
+      "streetName":{
+        "requiredAndEmpty": "Street name is required.",
+        "minimumLength": "Street name must be at least 2 characters.",
+        "maximumLength": "Street name must not exceed 50 characters.",
+        "invalidCharacters": "Street name may only contain letters."
+      },
+      "city": {
+        "requiredAndEmpty": "City is required.",
+        "minimumLength": "City must be at least 2 characters.",
+        "maximumLength": "City must not exceed 50 characters."      
+      },
+      "zipCode": {
+        "length": "Zip code must be 4 digits.",
+        "digitsOnly": "Zip code may only contain digits."
+      },
+      "email": {
+        "generalValidation": "Enter a valid email address (e.g. email@example.xyz).",
+        "missingAtSymbol": "Email address must contain @.",
+        "invalidFormat": "Email address is not in the correct format (e.g. email@example.xyz)."
+       },
+       "c/o": {
+        "minimumLength": "c/o must be at least 2 characters.",
+        "maximumLength": "c/o must not exceed 50 characters.",
+        "invalidCharacters": "c/o may only contain letters, spaces, hyphens, or apostrophes."
+       },
+        "houseNumber": {
+          "requiredAndEmpty": "House number must start with a number and may only contain numbers and an optional letter.",
+          "maximumLength": "House number must not exceed 10 characters.",
+          "invalidFormat": "House number must start with a number and may only contain numbers and an optional letter."
+        },
+        "floor": {
+          "combinedValidation": "Floor must be entered as a number, optionally followed by a dot and a side designation (e.g. 2. th).",
+          "maximumLength": "Floor must not exceed 5 characters.",
+          "invalidCharacters": "Floor must be entered as a number, optionally followed by a dot and a side designation (e.g. 2. th)."
+        },
+        "country": {
+          "requiredAndEmpty": "Country must be between 2 and 56 characters and may only contain letters, spaces, hyphens, or apostrophes.",
+          "minimumLength": "Country must be at least 2 characters.",
+          "maximumLength": "Country must not exceed 56 characters.",
+          "invalidCharacters": "Country may only contain letters, spaces, hyphens, or apostrophes."
+        }
+    },
     "internalNotes" :{
       "title": "Internal notes",
       "placeholder":"Write an internal note..",
@@ -184,6 +242,6 @@
         "title": "No internal notes yet",
         "description": "Internal notes added for this customer will be displayed here."
       }
-    }
+    } 
   }
 }
