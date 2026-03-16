@@ -30,7 +30,23 @@
       "createOffer": "Create offer",
       "save": "Save",
       "delete": "Delete",
-      "edit": "Edit"
+      "edit": "Edit",
+      "undoButton": "Undo",
+      "saveAsNew": "Save as new",
+      "saveChanges": "Save changes",
+      "discardChanges": "Discard changes",
+      "moreFiltersButton": "More filters",
+      "clearAll": "Clear all",
+      "saveList": "Save list",
+      "showTasks": "Show tasks",
+      "selectAll": "Select all", 
+      "clearSelection": "Clear selection",
+      "apply": "Apply",
+      "closeTask": "Close task",
+      "goToMessage": "Go to message",
+      "goToPolicy": "Go to policy",
+      "goToLead": "Go to lead",
+      "refreshPage": "Refresh page"
     },
     "choices": {
       "yes": "Yes",
@@ -253,6 +269,183 @@
         "title": "No internal notes yet",
         "description": "Internal notes added for this customer will be displayed here."
       }
-    } 
+    },
+    
+    "tasksManagement": {
+      "title": "Tasks",
+      "topbar": {
+        "listSelect": "Select list:",
+        "listSelectPlaceholder": "Select..",
+        "taskSearchPlaceholder": "Search tasks.."
+      },
+      "filters": {
+        "status": "Status",
+        "deadline": "Deadline",
+        "responsible": "Responsible"
+      },
+      "filterSummary": {
+        "selectedList": "List",
+        "noSelectedList": "No list selected",
+        "activeFilters": "Active filters",
+        "noActiveFilters": "No active filters",
+        "dropdownMenu": {
+          "mySavedLists": "My saved lists",
+          "standard": "Standard",
+          "createNewListButton": "Create new list",
+          "deleteList": {
+            "title": "Delete list",
+            "description": "You are about to permanently delete the list {{listName}}. Are you sure?",
+            "deleteListButton": "Delete list"
+          },
+          "saveList": {
+            "title": "Save list",
+            "dropdownTitle": "List name",
+            "dropdownPlaceholder": "Enter a name..",
+            "description": "Give the list a name so you can easily find it again"
+          }
+        },
+        "unsavedChangesBanner": {
+          "title": "You have changed the list {{listName}}",
+          "description": "Choose whether you want to save the changes"
+        }
+      },
+      "common": {
+        "meta": {
+          "status": "Status",
+          "deadline": "Deadline",
+          "responsible": "Responsible"
+        },
+        "summary": {
+          "creationDate": "Created {{date}}"
+        },
+        "relations": {
+          "title": "Related to"
+        },
+        "description": {
+          "title": "Description"
+        },
+        "internalNotes": {
+          "title": "Internal notes",
+          "noNote": "No note written yet"
+        },
+        "message": {
+          "sentAt": "{{date}} at {{time}}",
+          "sourceFromPortal": "Message from customer portal"
+        }
+      },
+      "drawers": {
+        "filterDrawer": {
+          "title": "Filters",
+    "sections": {
+        "activeFilters": {
+              "title": "Active filters",
+              "noActiveFilters": "No active filters selected"
+        },
+        "taskType": {
+          "title": "What are you working with?",
+          "dropdownTitle": "Task type",
+          "dropdownPlaceholder": "Select task type..",
+          "helperText": "Use task type to narrow down which kind of tasks you want to see."
+        },
+        "time": {
+          "title": "Time",
+          "status": "Status",
+          "deadline": "Deadline",
+          "creationDate": "Creation date",
+          "creationDatePlaceholder": "Select date.."
+        },
+        "responsibility": {
+          "title": "Responsibility",
+          "responsible": "Responsible",
+          "responsiblePlaceholder": "Select responsible.."
+        }
+      }
+    },
+    "taskDetailsDrawer": {
+          "title": "Customer inquiry",
+          "sections": {
+            "summary": {
+              "description": "Message from customer portal"
+            },
+            "message": {
+              "title": "Message",
+              "source": "Message from customer portal"
+            }
+          }
+        },
+        "systemTaskDrawer": {
+          "title": "System task",
+          "sections": {}
+        },
+        "manualTaskDrawer": {
+          "title": "Manual task",
+          "sections": {}
+        },
+        "customerInquiryDrawer": {
+          "title": "Customer inquiry",
+          "customer": {
+            "title": "Customer",
+            "noCustomer": "No customers are associated with this email address"
+          },
+          "message": {
+            "title": "E-mail"
+          }
+        },
+        "leadsDrawer": {
+          "title": "Leads",
+          "summary": {
+            "title": "Referral: Follow-up"
+          },
+          "leadInformation": {
+            "title": "Lead information",
+            "areaOfInterest": "Area of interest",
+            "dropdownPlaceholder": "Select area of interest..",
+            "source": "Source",
+            "leadStatus": "Lead status"
+          }
+        }
+      },
+      "table": {
+        "columns": {
+          "description": "Task description",
+          "type": "Type",
+          "deadline": "Deadline",
+          "status": "Status",
+          "responsible": "Responsible",
+          "created": "Created"
+        },
+        "rows": {
+          "responsibleDropdownPlaceholder": "Assign.."
+        }
+      },
+      "pagination": {
+        "showing": "Showing {{from}}-{{to}} of {{total}}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "emptyState" :{
+        "loadingState": "Loading..",
+        "noTasks": {
+          "title":"There are no tasks yet",
+          "description": "New tasks will automatically be displayed here when they are created"
+        },
+        "noFilterMatch": {
+          "title": "No tasks match your filters",
+          "description": "Try adjusting the filters or resetting them to see more tasks"
+        },
+        "noSearchResults":{
+          "title": "No tasks match your search",
+          "description": "Check the spelling or try searching with a different word"
+        },
+        "noTasksInSavedList":{
+          "title": "This list contains no tasks",
+          "description": "Tasks will be displayed here when they match the filters in the list"
+        },
+        "systemError":{
+          "title": "The task list could not be loaded",
+          "description": "An error occurred. Please try refreshing the page."
+        }
+    }
   }
+}
 }

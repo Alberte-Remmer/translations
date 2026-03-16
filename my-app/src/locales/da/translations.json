@@ -30,7 +30,23 @@
       "createOffer": "Opret tilbud",
       "save": "Gem",
       "delete": "Slet",
-      "edit": "Rediger"
+      "edit": "Rediger",
+      "undoButton": "Fortryd",
+      "saveAsNew": "Gem som ny",
+      "saveChanges": "Gem ændringer",
+      "discardChanges": "Forkast ændringer",
+      "moreFiltersButton": "Flere filtre",
+      "clearAll": "Nulstil alle",
+      "saveList": "Gem liste",
+      "showTasks": "Vis opgaver",
+      "selectAll": "Vælg alle", 
+      "clearSelection": "Ryd valg",
+      "apply": "Anvend",
+      "closeTask": "Luk opgave",
+      "goToMessage": "Gå til besked",
+      "goToPolicy": "Gå til police",
+      "goToLead": "Gå til lead",
+      "refreshPage": "Opdater siden"
     },
     "choices": {
       "yes": "Ja",
@@ -246,6 +262,180 @@
       "NoNotes": {
         "title": "Ingen interne noter endnu",
         "description": "Interne noter, der tilføjes for denne kunde, vises her."
+      }
+    },
+    "tasksManagement": {
+      "title": "Opgaver",
+      "topbar": {
+        "listSelect": "Vælg liste:",
+        "listSelectPlaceholder": "Vælg..",
+        "taskSearchPlaceholder": "Søg mellem opgaver.."
+      },
+      "filters": {
+        "status": "Status",
+        "deadline": "Deadline",
+        "responsible": "Ansvarlig"
+      },
+      "filterSummary": {
+        "selectedList": "Liste",
+        "noSelectedList": "Ingen liste valgt",
+        "activeFilters": "Aktive filtre",
+        "noActiveFilters": "Ingen filtre valgt",
+        "dropdownMenu": {
+          "mySavedLists": "Mine gemte lister",
+          "standard": "Standard",
+          "createNewListButton": "Opret ny liste",
+          "deleteList": {
+            "title": "Slet liste",
+            "description": "Du er ved at slette listen {{listName}} permanent. Er du sikker?",
+            "deleteListButton": "Slet liste"
+          },
+          "saveList": {
+            "title": "Gem liste",
+            "dropdownTitle": "Navn på liste",
+            "dropdownPlaceholder": "Skriv et navn..",
+            "description": "Giv listen et navn, så du nemt kan finde den igen"
+          }
+        },
+        "unsavedChangesBanner": {
+          "title": "Du har ændret listen {{listName}}",
+          "description": "Vælg om du vil gemme ændringerne"
+        }
+      },
+      "common": {
+        "meta": {
+          "status": "Status",
+          "deadline": "Deadline",
+          "responsible": "Ansvarlig"
+        },
+        "summary": {
+          "creationDate": "Oprettet {{date}}"
+        },
+        "relations": {
+          "title": "Relaterer til"
+        },
+        "description": {
+          "title": "Beskrivelse"
+        },
+        "internalNotes": {
+          "title": "Interne noter",
+          "noNote": "Ingen note skrevet endnu"
+        },
+        "message": {
+          "sentAt": "{{date}} kl. {{time}}",
+          "sourceFromPortal": "Besked fra kundeportal"
+        }
+      },
+      "drawers": {
+        "filterDrawer": {
+          "title": "Filtre",
+    "sections": {
+        "activeFilters": {
+              "title": "Aktive filtre",
+              "noActiveFilters": "Ingen aktive filtre valgt"
+        },
+        "taskType": {
+          "title": "Hvad arbejder du med?",
+          "dropdownTitle": "Opgavetype",
+          "dropdownPlaceholder": "Vælg opgavetype..",
+          "helperText": "Brug opgavetype til at afgrænse, hvilken slags opgaver du vil se."
+        },
+        "time": {
+          "title": "Tid",
+          "status": "Status",
+          "deadline": "Deadline",
+          "creationDate": "Oprettelsesdato",
+          "creationDatePlaceholder": "Vælg dato.."
+        },
+        "responsibility": {
+          "title": "Ansvar",
+          "responsible": "Ansvarlig",
+          "responsiblePlaceholder": "Vælg ansvarlig.."
+        }
+      }
+    },
+    "taskDetailsDrawer": {
+          "title": "Kundehenvendelse",
+          "sections": {
+            "summary": {
+              "description": "Besked fra kundeportal"
+            },
+            "message": {
+              "title": "Besked",
+              "source": "Besked fra kundeportal"
+            }
+          }
+        },
+        "systemTaskDrawer": {
+          "title": "Systemopgave"
+        },
+        "manualTaskDrawer": {
+          "title": "Manuel opgave"
+        },
+        "customerInquiryDrawer": {
+          "title": "Kundehenvendelse",
+          "customer": {
+            "title": "Kunde",
+            "noCustomer": "Ingen kunder er tilknyttet denne mailadresse"
+          },
+          "message": {
+            "title": "E-mail"
+          }
+        },
+        "leadsDrawer": {
+          "title": "Leads",
+          "summary": {
+            "title": "Henvisning: Opfølgning"
+          },
+          "leadInformation": {
+            "title": "Leadoplysninger",
+            "areaOfInterest": "Interesseområde",
+            "dropdownPlaceholder": "Vælg interesseområde..",
+            "source": "Kilde",
+            "leadStatus": "Leadstatus"
+          }
+        }
+      },
+      "table": {
+        "columns": {
+          "description": "Opgavebeskrivelse",
+          "type": "Type",
+          "deadline": "Deadline",
+          "status": "Status",
+          "responsible": "Ansvarlig",
+          "created": "Oprettet"
+        },
+        "rows": {
+          "responsibleDropdownPlaceholder": "Tildel.."
+        }
+      },
+      "pagination": {
+        "showing": "Viser {{from}}-{{to}} af {{total}}",
+        "previous": "Forrige",
+        "next": "Næste"
+      },
+      "emptyState" :{
+        "loadingState": "Henter..",
+        "noTasks": {
+          "title":"Der er ingen opgaver endnu",
+          "description": "Nye opgaver vil automatisk blive vist her, når de oprettes"
+        },
+        "noFilterMatch": {
+          "title": "Ingen opgaver matcher dine filter",
+          "description": "Prøv at justere filtrene eler nultstil dem for at se flere opgaver"
+        },
+        "noSearchResults":{
+          "title": "Ingen opgaver matcher din søgning",
+          "description": "Kontrollér stavningen eller prøv at søge med et andet ord"
+        },
+        "noTasksInSavedList":{
+          "title": "Denne liste indeholder ingen opgaver",
+          "description": "Opgaver vises her, når de matcher filtrene i listen"
+        },
+        "systemError":{
+          "title": "Opgavelisten kunne ikke indlæses",
+          "description": "Der opstod en fejl. Prøv at opdatere siden."
+        }
       }
     }
   } 
