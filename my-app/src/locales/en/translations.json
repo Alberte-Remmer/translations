@@ -76,8 +76,22 @@
           } 
         },
         "myTasks":{
-          "title": "My tasks",
-          "cta": "Go to all tasks"
+          "title": "Todays tasks",
+          "cta": "All my tasks"
+        },
+         "emptyState": {
+            "title": "You have no tasks right now",
+            "description": "When new tasks are created for you, they will be displayed here."
+          },
+          "errorState": {
+            "title": "Tasks could not be loaded",
+            "description": "An error occurred. Please try refreshing the page."
+          }
+        },
+        "taskList": {
+          "overdueOneDay": "Overdue ({{days}} day)",
+          "overdueMultipleDays": "Overdue ({{days}} days)",
+          "today": "Today"
         }
       }  
     },
@@ -447,5 +461,4 @@
         }
     }
   }
-}
 }

@@ -76,8 +76,21 @@
           } 
         },
         "myTasks":{
-          "title": "Mine opgaver",
-          "cta": "Gå til alle opgaver"
+          "title": "Dagens opgaver",
+          "cta": "Alle mine opgaver",
+          "emptyState": {
+            "title": "Du har ingen opgaver lige nu",
+            "description": "Når der oprettes nye opgaver til dig, vil de blive vist her."
+          },
+          "errorState": {
+            "title": "Opgaver kunne ikke indlæses",
+            "description": "Der opstod en fejl. Prøv at opdatere siden."
+          }
+        },
+        "taskList": {
+          "overdueOneDay": "Overskredet ({{days}} dag)",
+          "overdueMultipleDays": "Overskredet ({{days}} dage)",
+          "today": "I dag"
         }
       }
     },
