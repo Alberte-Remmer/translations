@@ -112,6 +112,21 @@
       "noTasks": {
         "title": "Ingen opgaver endnu",
         "description": "Kig forbi igen senere for nye opgaver."
+      },
+      "policyCards": {
+        "labels": {
+          "cause": "Årsag",
+          "created": "Oprettet",
+          "expires": "Udløber",
+          "startDate": "Startdato",
+          "mainDueDate": "Hovedforfald",
+          "frequency": "Frekvens",
+          "annualPremium": "Årlig præmie"
+        }
+      },
+      "customerTasks":{
+        "title": "Opgaver ({{count}})",
+        "noTasks":"Ingen opgaver tilknyttet denne kunde"
       }
     },
     "customerSummaryPanel":{

@@ -113,6 +113,21 @@
       "noTasks": {
         "title": "No tasks yet",
         "description": "Come back later for new tasks."
+      },
+      "policyCards": {
+        "labels": {
+          "cause": "Reason",
+          "created": "Created",
+          "expires": "Expires",
+          "startDate": "Start date",
+          "mainDueDate": "Main due date",
+          "frequency": "Frequency",
+          "annualPremium": "Annual premium"
+        }
+      },
+      "customerTasks":{
+        "title": "Tasks ({{count}})",
+        "noTasks":"No tasks associated with this customer"
       }
     },
     "customerSummaryPanel":{
