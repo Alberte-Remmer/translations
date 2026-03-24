@@ -46,7 +46,8 @@
       "goToMessage": "Gå til besked",
       "goToPolicy": "Gå til police",
       "goToLead": "Gå til lead",
-      "refreshPage": "Opdater siden"
+      "refreshPage": "Opdater siden",
+      "refresh": "Opdater"
     },
     "choices": {
       "yes": "Ja",
@@ -126,7 +127,11 @@
       },
       "customerTasks":{
         "title": "Opgaver ({{count}})",
-        "noTasks":"Ingen opgaver tilknyttet denne kunde"
+        "noTasks":"Ingen opgaver tilknyttet denne kunde",
+        "errorState": {
+          "title": "Opgaver kunne ikke indlæses",
+          "description": "Der opstod en fejl. Prøv at opdatere siden."
+        }
       }
     },
     "customerSummaryPanel":{
