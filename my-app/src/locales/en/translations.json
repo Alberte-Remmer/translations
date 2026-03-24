@@ -46,7 +46,8 @@
       "goToMessage": "Go to message",
       "goToPolicy": "Go to policy",
       "goToLead": "Go to lead",
-      "refreshPage": "Refresh page"
+      "refreshPage": "Refresh page",
+      "refresh": "Refresh"
     },
     "choices": {
       "yes": "Yes",
@@ -127,7 +128,11 @@
       },
       "customerTasks":{
         "title": "Tasks ({{count}})",
-        "noTasks":"No tasks associated with this customer"
+        "noTasks":"No tasks associated with this customer",
+        "errorState": {
+          "title": "Tasks could not be loaded",
+          "description": "An error occurred. Please try refreshing the page."
+        }
       }
     },
     "customerSummaryPanel":{
